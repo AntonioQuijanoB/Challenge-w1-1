@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web de Angelo, Antonio y Diego" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img src="/favicon.svg" alt="Logo" width="50" />
+        Nuestra página web
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="somos.html">Quienes Somos</a></li>
+          <li><a href="cv.html">Nuestros Cv</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+      <h2>Formulario de contacto</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label><br />
+        <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="comentarios">Comentarios:</label><br />
+        <textarea
+          id="comentarios"
+          name="comentarios"
+          rows="4"
+          cols="50"
+        ></textarea
+        ><br /><br />
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
+  </body>
+    </main>
+</html>
